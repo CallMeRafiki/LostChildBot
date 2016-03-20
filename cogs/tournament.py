@@ -8,7 +8,7 @@ from .utils import checks
 import os
 from __main__ import settings
 
-admins = {"82996355949137920" : [],"117711026820087813" : [],"125476015148498945" : [],"89901793084989440" : [],"96302125415399424" : []}
+admins = {} #Should probably have this imported from a admins.json or something. It'll work for now though.
 
 class Tournament:
     """Tournament commands."""
